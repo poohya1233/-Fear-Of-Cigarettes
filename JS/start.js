@@ -7,7 +7,7 @@ function start(){
     LOGO.style.animationPlayState = 'running';
     B.style.animationPlayState = 'running';
     setTimeout(() => {
-        window.location.href = 'HTMl/page1.html';
+        window.location.href = '/HTMl/page1.html';
     }, 1000);
     
     
