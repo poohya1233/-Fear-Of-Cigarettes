@@ -19,7 +19,7 @@ function YES(){
     boutton.style.animationDuration = "3s";
     boutton.style.animationPlayState = "running";
     setTimeout(() => {
-        window.location.href = 'index.html';
+        window.location.href = '/-Fear-Of-Cigarettes/index.html';
     }, 1000);
     
     
@@ -35,7 +35,7 @@ function NO(){
     boutton.style.animationDuration = "3s";
     boutton.style.animationPlayState = "running";
     setTimeout(() => {
-        window.location.href = 'end.html';
+        window.location.href = '/-Fear-Of-Cigarettes/end.html';
     }, 1000);
 
 }
