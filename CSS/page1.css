@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Modak&family=Srisakdi:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    background-color: black;
+    font-size: 20px;
+    font-family: "Kanit", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.imge{
+    animation-name: in;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    
+
+
+    text-align: center;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: auto;
+    width: 1280px;
+    height: 720px;
+    color: azure;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+img{
+    width: 1280px;
+    height: auto;
+}
+
+
+.buttom{
+    animation-name: in;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+}
+
+table{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+tr{
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    border-color: aliceblue;
+    background-color: aliceblue;
+    border-width: 0px;
+    width: 250px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+
+
+button:hover{
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+
+
+@keyframes in{
+    0%{
+        transform: translateX(9000px);
+        left: 9000px;
+    }
+    80%{
+        transform: translateX(-100px);
+        left: -100px;
+    }
+
+    100%{
+        transform: translateX(0);
+        left:  0px;
+    }
+}
+
+
+
+@keyframes OUT {
+    0%{
+        transform: translateX(0px);
+        right: 9000px;
+    }
+    10%{
+        transform: translateX(-100px);
+        right: -100px;
+    }
+
+    100%{
+        transform: translateX(9000px);
+        right:  0px;
+    }
+}
